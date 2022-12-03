@@ -14,7 +14,7 @@ export default function ShoppingCart() {
 
     useEffect(async () => {
 
-        await axios.get('http://localhost:4000/user/get').then(res => {
+        await axios.get('http://ec2-3-84-137-227.compute-1.amazonaws.com:4000/user/get').then(res => {
 
             console.log(res.data)
             setitems(res.data)

@@ -32,7 +32,7 @@ export default function Table() {
     const submit = ()=> {
 
         console.log("form",book);
-        axios.post('http://localhost:4000/user/add',book)
+        axios.post('http://ec2-3-84-137-227.compute-1.amazonaws.com:4000/user/add',book)
       
         
     }

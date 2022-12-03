@@ -11,7 +11,7 @@ export default function ItemsCard(props) {
     const deleteObj = (id)=>{
 
         console.log(id);
-        axios.delete('http://localhost:4000/user/delete',{data:{id}})
+        axios.delete('http://ec2-3-84-137-227.compute-1.amazonaws.com:4000/user/delete',{data:{id}})
 
        window.location = '/'
     }
