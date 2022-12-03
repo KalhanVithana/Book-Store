@@ -29,7 +29,7 @@ app.use(bodyParser.urlencoded({
 
 
 app.use(cors({
-  origin:['https://localhost:3000','http://localhost:3000'], 
+  origin: '*'
 }));
 app.use('/user', AuthorRoute)
 
